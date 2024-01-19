@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/Base.Theme.CeviriTasarimi"
+    tools:context=".GorselCeviriEkrani">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:padding="4dp"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_back"
+            android:id="@+id/geriTusu"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Görsel Çeviri"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/bej"
+            android:layout_marginStart="80dp"
+            android:padding="4dp"/>
+
+
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:layout_width="370sp"
+        android:layout_height="370sp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:id="@+id/imageView"
+        android:src="@drawable/icon"
+        android:layout_marginTop="10sp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/bej"
+            android:text="Hedef Dil:"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/spinnerTarget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autofillHints="Dil Seçin"
+            android:layout_marginStart="10dp"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tespit Edilen Nesne :"
+            android:textColor="@color/bej"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="20sp" />
+
+        <TextView
+            android:id="@+id/translatedText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/bej"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/galeriyiAc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonarkaplan2"
+        android:text="Galeriden Fotoğraf Seç"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/kahverengi"
+        android:layout_gravity="center"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

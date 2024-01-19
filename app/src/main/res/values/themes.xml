@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+
+    <style name="Base.Theme.CeviriTasarimi" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorPrimaryDark">@color/kahverengi</item>
+        <item name="android:background">@color/kahverengi</item>
+        <item name="colorAccent">@color/kahverengi</item>
+        <item name="android:textColor">@color/bej</item>
+        <item name="android:textSize">20sp</item>
+        <item name ="colorPrimary">@color/bej</item>
+    </style>
+
+</resources>
