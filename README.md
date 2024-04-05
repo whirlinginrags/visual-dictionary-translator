@@ -1,0 +1,1 @@
+This is a translation app that utilizes machine learning to detect the main object in a captured image that, then translates the object to the target language. It also has regular text translation, aswell as voice recognition and text to speech, so that visually impaired people could use the app to hear what object they have in front of them.
